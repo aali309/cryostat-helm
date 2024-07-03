@@ -40,5 +40,5 @@ jobs:
       - name: Install Unittest Plugin
         run: helm plugin install https://github.com/quintush/helm-unittest
       - name: Run Helm Unittests
-        run: helm unittest ./charts/cryostat
+        run: helm unittest ./charts/cryostat --dubug
     
